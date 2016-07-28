@@ -22,12 +22,14 @@ namespace ConsoleApplication1
                }
         }
     }
+	//Random comment
     class Program
     {
         static void Main(string[] args)
         {
             demo d = new demo();
             d.x = 100;
+			Console.WriteLine("Welcome to c#");
             Console.WriteLine($"Value assigned{d.x}");
            Console.ReadLine();
 
